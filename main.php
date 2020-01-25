@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 require_once '../token.php';
-$website = "https://api.telegram.org/bot" . $botToken;
+$website = "https://api.telegram.org/bot" . 1037626659:AAFqtAodNCmgpRRCBsD8twrJk06Bi7l8z10;
 $update = file_get_contents("php://input");
 $updateArray = json_decode($update, TRUE);
 $chatId = $updateArray["message"]["chat"]["id"];
